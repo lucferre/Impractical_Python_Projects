@@ -9,9 +9,9 @@ def main():
     """
     while True:
         #Get word from user and store it into a variable
-        word = input("\n\nEnter a word to convert it into piglatin: ")
+        word = input("\n\nEnter a word to convert into piglatin: ")
         #Check if input is a valid word
-        while len(word) == 0 or word.isdigit():
+        while len(word) == 0 or word.isdigit() or word[0] == "-":
             word = input("\n\nPlease enter a valid word: ")
         #Check if first character is a vowel
         if word[0] in ("a", "e", "i", "o", "u"):
