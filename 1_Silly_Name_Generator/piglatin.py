@@ -3,9 +3,10 @@ def main():
     """Get a word from the user, convert it to pig latin and print to screen.
     
     Pig Latin:
-    append "way" at the end if the word starts with a vowel, or move the
-    first letter to the end and append "ay" if the word starts with a
-    consonant.
+    append "way" at the end if the word starts with a vowel, otherwise move
+    the first letter to the end and append "ay".
+    
+    Empty strings and integers are invalid inputs.
     """
     while True:
         #Get word from user and store it into a variable
