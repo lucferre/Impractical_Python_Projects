@@ -1,4 +1,4 @@
-"""Count the numbers of letters in a phrase and return a barchart."""
+"""Count the numbers of letters in a phrase and print a barchart."""
 
 def main():
     """Get a phrase and print to screen a barchar with each letter's count.
